@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Quando&display=swap');
+*{
+
+    margin: 0%;
+    padding: 0%;
+}
+
+.body__menu{
+    box-sizing: border-box;
+    background-color: #201241;
+    background-image: url(../asset/foto\ background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    
+}
+
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__link{
+     font-family: "Quando", serif;
+     font-size: 1.5rem;
+     font-weight: 600;
+     text-decoration: none;
+     color: #FEF7F2;
+    
+}
+.cabecalho__link:hover{
+    color: #96DBFF ;
+}
+
+.conteudo{
+    margin: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.conteudo__texto{
+    color: #FEF7F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.conteudo__texto__titulo{
+     color:#E500FF;
+     font-family:  "Pinyon Script", cursivo;
+     font-size: 5rem;
+     filter:drop-shadow(1px 1px 20px #e500ff)
+}
+
+.conteudo__texto__frase{
+    font-family: "Quando", serif;
+    font-size: 1.5rem;
+}
+
+.texto__destaque{
+    font-family: "Quando", serif;
+    color: #96DBFF;
+}
+
+.subtitulo{
+    font-family: "Quando", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+
+
+.conteudo__links{
+    display: flex; 
+    justify-content:center; 
+    gap: 16px; 
+    border: 2px solid #E500FF; 
+    width: 100%; 
+    text-align: center; 
+    border-radius: 8px; 
+    font-size: 1.5rem; 
+    font-weight: 400; 
+    padding: 21.5px 0px; 
+    text-decoration: none; 
+    color: #FEF7F2; 
+    font-family: "Quando", serif; 
+}
+
+.conteudo__links:hover{
+    background-color:  #060B3B;
+}
+
+.imagem__adriana{
+    width: 40%
+}
+
+.rodape{
+    padding: 24px;
+    background-color: #060B3B;
+    color: #FEF7F2;
+    font-family: "Quando", serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    
+}
+    
+@media (max-width: 1030px){
+      .cabecalho{
+        padding: 10%;
+}
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .conteudo__texto__titulo{
+        text-align: center;
+    }
+
+      .conteudo{
+        flex-direction: column-reverse;
+        padding: 5%;
+
+}   
+     .conteudo__texto{
+        width: auto;
+
+}    
+     .imagem__adriana{
+      width: 60%;
+     
+}
+
+}
+
+    
